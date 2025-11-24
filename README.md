@@ -46,8 +46,8 @@ Si prefieres no instalar Java localmente y usar el contenedor:
 La aplicación estará disponible en: http://localhost:8080
 ### Endpoint: /mutant
   **Ejemplo En local:**
-  * **Método:** `POST`
-  * **URL Relativa:** `/mutant`
+  * **Método:** "POST"
+  * **URL Relativa:** "/mutant"
   * **URL Local:** http://localhost:8080/mutant
   * **Body:**
     {
@@ -57,8 +57,8 @@ La aplicación estará disponible en: http://localhost:8080
   * **RESPUESTA:** 200 OK (Es Mutante) o 403 Forbidden (Es Humano).
 
   **Ejemplo desde la API en Render:**
-  * **Método:** `POST`
-  * **URL Relativa:** `/mutant`
+  * **Método:** "POST"
+  * **URL Relativa:** "/mutant"
   * **URL Deploy:** https://mercadolibreprueba-mzd8.onrender.com/mutant
   * **Body:**
     {
@@ -72,9 +72,9 @@ La aplicación estará disponible en: http://localhost:8080
 Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantidad de mutantes, humanos y el ratio de mutantes.
   
   **Ejemplo En local:**
-    * **Método:** `GET`
-    * **URL Relativa:** `/stats`
-    * **URL Deploy:** `https://mercadolibreprueba-mzd8.onrender.com/stats`
+    * **Método:** "GET"
+    * **URL Relativa:** "/stats"
+    * **URL Deploy:** "https://mercadolibreprueba-mzd8.onrender.com/stats"
     * **Body:** No requiere cuerpo.
     * **Ejemplo de Respuesta (JSON):**
       {
@@ -83,9 +83,9 @@ Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantid
           "ratio": 0.4
       }
   **Ejemplo desde la API en Render:**
-    * **Método:** `GET`
-    * **URL Relativa:** `/stats`
-    * **URL Deploy:** `http://localhost:8080/stats`
+    * **Método:** "GET"
+    * **URL Relativa:** "/stats"
+    * **URL Deploy:** "http://localhost:8080/stats"
     * **Body:** No requiere cuerpo.
     * **Ejemplo de Respuesta (JSON):**
       {
