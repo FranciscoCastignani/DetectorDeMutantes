@@ -70,6 +70,7 @@ La aplicación estará disponible en: http://localhost:8080
 
 ### Endpoint: /stats
 Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantidad de mutantes, humanos y el ratio de mutantes.
+
   **Ejemplo En local:**
   * **Método:** "GET"
   * **URL Relativa:** "/stats"
