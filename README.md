@@ -22,7 +22,6 @@ Para ejecutar la aplicación localmente, primero asegúrate de tener el **JDK 17
 
 No necesitas configurar permisos, simplemente ejecuta el script `gradlew`:
 
-```powershell
 .\gradlew bootRun
 
 En Linux o macOS
